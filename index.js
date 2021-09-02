@@ -1,3 +1,4 @@
+require('dotenv').config(); // this allows to stash artificial en variables in a file
 const express = require('express');
 const cors = require('cors');
 const server = express();
