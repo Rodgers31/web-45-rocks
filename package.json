@@ -7,7 +7,7 @@
 		"start": "node index.js",
 		"server": "nodemon inde.js",
 		"test": "echo \"Error: no test specified\" && exit 1",
-		"heroku-postbuild": "cd cliet && npm i && npm run build"
+		"heroku-postbuild": "cd client && npm i && npm run build"
 	},
 	"keywords": [],
 	"author": "",
